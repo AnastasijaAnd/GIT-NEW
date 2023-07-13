@@ -66,6 +66,15 @@ keys = list(sneakers.keys())
 print(keys) # -> ['brand', 'price', 'model']
 
 Метод values() возвращает специальную коллекцию значений в словаре.
+sneakers = dict(brand='Adidas', price='9990 RUB', model='Nite Jogger')
+
+print(sneakers.values()) # -> dict_values(['Adidas', '9990 RUB', 'Nite Jogger'])
+
+# dict_values - это неизменяемая коллекция элементов.
+
+values = list(sneakers.values())
+print(values) # -> ['Adidas', '9990 RUB', 'Nite Jogger']
+
 Метод items() возвращает пары «ключ — значение» в формате кортежей.
 Метод setdefault() возвращает значение ключа, но если его нет, создает ключ с указанным значением (по умолчанию None).
 
