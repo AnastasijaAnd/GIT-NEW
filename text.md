@@ -56,15 +56,6 @@ print(sneakers) # -> {'brand': 'Adidas', 'price': '9990 RUB'}
 print(model)    # -> Nite Jogger
 
 Метод keys() возвращает специальную коллекцию ключей в словаре.
-sneakers = dict(brand='Adidas', price='9990 RUB', model='Nite Jogger')
-
-print(sneakers.keys()) # -> dict_keys(['brand', 'price', 'model'])
-
-# dict_keys - это неизменяемая коллекция элементов.
-
-keys = list(sneakers.keys())
-print(keys) # -> ['brand', 'price', 'model']
-
 Метод values() возвращает специальную коллекцию значений в словаре.
 sneakers = dict(brand='Adidas', price='9990 RUB', model='Nite Jogger')
 
